@@ -1016,19 +1016,19 @@ hr {
 .tile.tile-19683 .tile-inner {
     color: #f9f6f2;
     background: #34ff56; 
-    box-shadow: 0 0 30px 10px rgba(98, 134, 43, 0.31746), inset 0 0 0 1px rgba(0, 0, 0, 0.19048);
+    box-shadow: 0 0 30px 10px rgba(98, 134, 43, 0.39683), inset 0 0 0 1px rgba(0, 0, 0, 0.2381);
     Font-size: 30px; }
 
 .tile.tile-59049 .tile-inner {
     color: #f9f6f2;
     background: #420967; 
-    box-shadow: 0 0 30px 10px rgba(45, 209, 12, 0.31746), inset 0 0 0 1px rgba(0, 0, 0, 0.19048);
+    box-shadow: 0 0 30px 10px rgba(45, 209, 12, 0.47619), inset 0 0 0 1px rgba(0, 0, 0, 0.28571);
     Font-size: 30px; }
 
 .tile.tile-177147 .tile-inner {
     color: #f9f6f2;
     background: #f37718; 
-    box-shadow: 0 0 30px 10px rgba(209, 111, 119, 0.31746), inset 0 0 0 1px rgba(0, 0, 0, 0.19048);
+    box-shadow: 0 0 30px 10px rgba(209, 111, 119, 0.55556), inset 0 0 0 1px rgba(0, 0, 0, 0.33333);
     Font-size: 30px; }
 
   .tile .tile-inner {
