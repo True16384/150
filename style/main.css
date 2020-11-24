@@ -767,17 +767,17 @@ hr {
     box-shadow: 0 0 30px 10px #ff00aa, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 45px }
 
-.tile.tile-512, .tile.tile-483, .tile.tile-506 .tile-inner {
+.tile.tile-512 .tile-inner, .tile.tile-483 .tile-inner, .tile.tile-506 .tile-inner {
     background: #edc850; 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px }
 
-.tile.tile-529, .tile.tile-552, .tile.tile-575, .tile.tile-598, .tile.tile-621, .tile.tile-644, .tile.tile-667, .tile.tile-690, .tile.tile-713, .tile.tile-736, .tile.tile-759, .tile.tile-782, .tile.tile-805, .tile.tile-828, .tile.tile-851, .tile.tile-874, .tile.tile-897, .tile.tile-920, .tile.tile-943, .tile.tile-966, .tile.tile-989, .tile.tile-1012 .tile-inner {
+.tile.tile-529 .tile-inner, .tile.tile-552 .tile-inner, .tile.tile-575 .tile-inner, .tile.tile-598 .tile-inner, .tile.tile-621 .tile-inner, .tile.tile-644 .tile-inner, .tile.tile-667 .tile-inner, .tile.tile-690 .tile-inner, .tile.tile-713 .tile-inner, .tile.tile-736 .tile-inner, .tile.tile-759 .tile-inner, .tile.tile-782 .tile-inner, .tile.tile-805 .tile-inner, .tile.tile-828 .tile-inner, .tile.tile-851 .tile-inner, .tile.tile-874 .tile-inner, .tile.tile-897 .tile-inner, .tile.tile-920 .tile-inner, .tile.tile-943 .tile-inner, .tile.tile-966 .tile-inner, .tile.tile-989 .tile-inner, .tile.tile-1012 .tile-inner .tile-inner {
     background: #edc850; 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px }
 
-.tile.tile-1024, .tile.tile-1035, .tile.tile-1058, .tile.tile-1081, .tile.tile-1104, .tile.tile-1127, .tile.tile-1150, .tile.tile-1173, .tile.tile-1196, .tile.tile-1219, .tile.tile-1242, .tile.tile-1265, .tile.tile-1288, .tile.tile-1311, .tile.tile-1334, .tile.tile-1357, .tile.tile-1380, .tile.tile-1403, .tile.tile-1426, .tile.tile-1449, .tile.tile-1472, .tile.tile-1495, .tile.tile-1518, .tile.tile-1541, .tile.tile-1564, .tile.tile-1587, .tile.tile-1610, .tile.tile-1633, .tile.tile-1656, .tile.tile-1679, .tile.tile-1702, .tile.tile-1725, .tile.tile-1748, .tile.tile-1771, .tile.tile-1794, .tile.tile-1817, .tile.tile-1840, .tile.tile-1863, .tile.tile-1886, .tile.tile-1909, .tile.tile-1932, .tile.tile-1955, .tile.tile-1978, .tile.tile-2001, .tile.tile-2024, .tile.tile-2047 .tile-inner {
+.tile.tile-1024 .tile-inner, .tile.tile-1035 .tile-inner, .tile.tile-1058 .tile-inner, .tile.tile-1081 .tile-inner, .tile.tile-1104, .tile.tile-1127 .tile-inner, .tile.tile-1150 .tile-inner, .tile.tile-1173 .tile-inner, .tile.tile-1196 .tile-inner, .tile.tile-1219 .tile-inner, .tile.tile-1242 .tile-inner, .tile.tile-1265 .tile-inner, .tile.tile-1288 .tile-inner, .tile.tile-1311 .tile-inner, .tile.tile-1334 .tile-inner, .tile.tile-1357 .tile-inner, .tile.tile-1380 .tile-inner, .tile.tile-1403 .tile-inner, .tile.tile-1426 .tile-inner, .tile.tile-1449 .tile-inner, .tile.tile-1472 .tile-inner, .tile.tile-1495 .tile-inner, .tile.tile-1518 .tile-inner, .tile.tile-1541 .tile-inner, .tile.tile-1564 .tile-inner, .tile.tile-1587 .tile-inner, .tile.tile-1610 .tile-inner, .tile.tile-1633 .tile-inner, .tile.tile-1656 .tile-inner, .tile.tile-1679 .tile-inner, .tile.tile-1702 .tile-inner, .tile.tile-1725 .tile-inner, .tile.tile-1748 .tile-inner, .tile.tile-1771 .tile-inner, .tile.tile-1794 .tile-inner, .tile.tile-1817 .tile-inner, .tile.tile-1840 .tile-inner, .tile.tile-1863 .tile-inner, .tile.tile-1886 .tile-inner, .tile.tile-1909 .tile-inner, .tile.tile-1932 .tile-inner, .tile.tile-1955 .tile-inner, .tile.tile-1978 .tile-inner, .tile.tile-2001 .tile-inner, .tile.tile-2024 .tile-inner, .tile.tile-2047 .tile-inner {
     background: #edc53f; 
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px }
@@ -801,6 +801,10 @@ hr {
     color: #f9f6f2;
     background: #f2b179; }
 
+  .tile.tile-7 .tile-inner {
+    color: #f9f6f2;
+    background: #f1b985; }
+
 .tile.tile-9 .tile-inner {
     Color: #f9f6f2;
     background: #971b2f; }
@@ -809,6 +813,10 @@ hr {
     Color: #f9f6f2;
     box-shadow: 0 0 30px 10px rgb(255, 128, 65), inset 0 0 0 10px rgb(0, 0, 0);
     background: #f59563; }
+
+  .tile.tile-14 .tile-inner {
+    color: #f9f6f2;
+    background: #f2b179; }
 
   .tile.tile-18 .tile-inner {
     color: #facdeb;
@@ -823,6 +831,10 @@ hr {
     Color: #f9f6f2;
     background: #36595f;  }
 
+.tile.tile-28 .tile-inner {
+    Color: #f9f6f2;
+    background: #ff0033;  }
+
 .tile.tile-36 .tile-inner {
     color: #ffffff;
     background: #000000; }
@@ -832,6 +844,9 @@ hr {
     background: #f66d4d; }
 .tile.tile-54 .tile-inner {
     background: #ff1672; }
+
+.tile.tile-56 .tile-inner {
+    background: #85ad84; }
 
 .tile.tile-96 .tile-inner {
     color: #f9f6f2;
@@ -992,6 +1007,30 @@ hr {
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); 
     Font-size: 35px; }
 
+.tile.tile-6561 .tile-inner {
+    color: #f9f6f2;
+    background: #de4691; 
+    box-shadow: 0 0 30px 10px rgba(65, 7, 199, 0.31746), inset 0 0 0 1px rgba(0, 0, 0, 0.19048);
+    Font-size: 35px; }
+
+.tile.tile-19683 .tile-inner {
+    color: #f9f6f2;
+    background: #34ff56; 
+    box-shadow: 0 0 30px 10px rgba(98, 134, 43, 0.31746), inset 0 0 0 1px rgba(0, 0, 0, 0.19048);
+    Font-size: 30px; }
+
+.tile.tile-59049 .tile-inner {
+    color: #f9f6f2;
+    background: #420967; 
+    box-shadow: 0 0 30px 10px rgba(45, 209, 12, 0.31746), inset 0 0 0 1px rgba(0, 0, 0, 0.19048);
+    Font-size: 30px; }
+
+.tile.tile-177147 .tile-inner {
+    color: #f9f6f2;
+    background: #f37718; 
+    box-shadow: 0 0 30px 10px rgba(209, 111, 119, 0.31746), inset 0 0 0 1px rgba(0, 0, 0, 0.19048);
+    Font-size: 30px; }
+
   .tile .tile-inner {
     border-radius: 3px;
     background: #696969;
@@ -1124,7 +1163,7 @@ hr {
     margin-top: 15px; }
 
   .container {
-    width: 280px;
+    width: 347.5px;
     margin: 0 auto; }
 
   .score-container, .best-container {
@@ -1145,8 +1184,8 @@ hr {
     -moz-user-select: none;
     background: #bbada0;
     border-radius: 6px;
-    width: 280px;
-    height: 280px;
+    width: 347.5px;
+    height: 347.5px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -1242,6 +1281,10 @@ hr {
     -webkit-transform: translate(0px, 202px);
     -moz-transform: translate(0px, 202px);
     transform: translate(0px, 202px); }
+  .tile.tile-position-1-5 {
+    -webkit-transform: translate(0px, 269px);
+    -moz-transform: translate(0px, 269px);
+    transform: translate(0px, 269px); }
   .tile.tile-position-2-1 {
     -webkit-transform: translate(67px, 0px);
     -moz-transform: translate(67px, 0px);
@@ -1258,6 +1301,10 @@ hr {
     -webkit-transform: translate(67px, 202px);
     -moz-transform: translate(67px, 202px);
     transform: translate(67px, 202px); }
+  .tile.tile-position-2-5 {
+    -webkit-transform: translate(67px, 269px);
+    -moz-transform: translate(67px, 269px);
+    transform: translate(67px, 269px); }
   .tile.tile-position-3-1 {
     -webkit-transform: translate(135px, 0px);
     -moz-transform: translate(135px, 0px);
@@ -1274,6 +1321,10 @@ hr {
     -webkit-transform: translate(135px, 202px);
     -moz-transform: translate(135px, 202px);
     transform: translate(135px, 202px); }
+  .tile.tile-position-3-5 {
+    -webkit-transform: translate(135px, 269px);
+    -moz-transform: translate(135px, 269px);
+    transform: translate(135px, 269px); }
   .tile.tile-position-4-1 {
     -webkit-transform: translate(202px, 0px);
     -moz-transform: translate(202px, 0px);
@@ -1290,6 +1341,30 @@ hr {
     -webkit-transform: translate(202px, 202px);
     -moz-transform: translate(202px, 202px);
     transform: translate(202px, 202px); }
+  .tile.tile-position-4-5 {
+    -webkit-transform: translate(202px, 269px);
+    -moz-transform: translate(202px, 269px);
+    transform: translate(202px, 269px); }
+  .tile.tile-position-5-1 {
+    -webkit-transform: translate(269px, 0px);
+    -moz-transform: translate(269px, 0px);
+    transform: translate(269px, 0px); }
+  .tile.tile-position-5-2 {
+    -webkit-transform: translate(269px, 67px);
+    -moz-transform: translate(269px, 67px);
+    transform: translate(269px, 67px); }
+  .tile.tile-position-5-3 {
+    -webkit-transform: translate(269px, 135px);
+    -moz-transform: translate(269px, 135px);
+    transform: translate(269px, 135px); }
+  .tile.tile-position-5-4 {
+    -webkit-transform: translate(269px, 202px);
+    -moz-transform: translate(269px, 202px);
+    transform: translate(269px, 202px); }
+  .tile.tile-position-5-5 {
+    -webkit-transform: translate(269px, 269px);
+    -moz-transform: translate(269px, 269px);
+    transform: translate(269px, 269px); }
 
   .game-container {
     margin-top: 20px; }
